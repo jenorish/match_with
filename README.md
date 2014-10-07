@@ -4,24 +4,24 @@
  
  In regularity API is like 
  
-   Regularity.new
+   `Regularity.new
     .start_with(3, :digits)
     .then('-')
     .then(2, :letters)
     .maybe('#')
     .one_of(['a','b'])
     .between([2,4], 'a')
-    .end_with('$')
+    .end_with('$')`
     
- it will generate /^[0-9]{3}-[A-Za-z]{2}#?[a|b]a{2,4}\$$/
+ it will generate `/^[0-9]{3}-[A-Za-z]{2}#?[a|b]a{2,4}\$$/`
  
  But if you want to match this Regex to string means you have to call 
  
- if "string"[Regularity.new.one_of(['a','b']).regex]
+ `if "string"[Regularity.new.one_of(['a','b']).regex]`
  
  Here, 
 
- if "string".match_with.one_of(['a','b']).result 
+ `if "string".match_with.one_of(['a','b']).result` 
  
  It is more clear.
 
