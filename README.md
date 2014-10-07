@@ -5,9 +5,9 @@
  In regularity API is like 
  
    `Regularity.new
-    .start_with(3, :digits)
-    .then('-')
-    .then(2, :letters)
+     .start_with(3, :digits)
+     .then('-')
+     .then(2, :letters)
     .maybe('#')
     .one_of(['a','b'])
     .between([2,4], 'a')
