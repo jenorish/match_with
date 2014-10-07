@@ -25,6 +25,7 @@
  
  It is more clear.
 
+Thanks to @andrewberls
 ## Installation
 
 Add this line to your application's Gemfile:
