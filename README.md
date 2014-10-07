@@ -1,6 +1,6 @@
 # MatchWith
 
-TODO: Write a gem description
+ This gem internally used https://github.com/andrewberls/regularity 
 
 ## Installation
 
