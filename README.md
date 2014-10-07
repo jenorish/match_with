@@ -8,10 +8,10 @@
      .start_with(3, :digits)
      .then('-')
      .then(2, :letters)
-    .maybe('#')
-    .one_of(['a','b'])
-    .between([2,4], 'a')
-    .end_with('$')`
+     .maybe('#')
+     .one_of(['a','b'])
+     .between([2,4], 'a')
+     .end_with('$')`
     
  it will generate `/^[0-9]{3}-[A-Za-z]{2}#?[a|b]a{2,4}\$$/`
  
