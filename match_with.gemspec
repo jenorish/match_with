@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["jenorish@gmail.com"]
   spec.summary       = %q{human readable regex}
   spec.description   = %q{We can write regex in simple english}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/jenorish/match_with"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
